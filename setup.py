@@ -16,7 +16,7 @@ setup(
     author="John Doe",
     author_email="j@j.com",
     license="MIT",
-    classifiers=[
+    classifiers=[  # can be found in https://pypi.org/classifiers/
         # about license, programming language, etc and operating system
         "License :: OSI Approved :: MIT License",
         "Programming Language :: Python :: 3",
