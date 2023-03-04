@@ -22,3 +22,14 @@ setup(
     extras_require={"dev": ["pytest>=7.0", "twine>=4.0.2"]}, #twine is used for publish to pypi or somewhere else..
     python_requires=">=3.10",
 )
+
+
+# how to use twine
+# twine check dist/* (check if the package is good)
+# means ready to public
+
+# twine upload dist/* # (upload to pypi)
+# then need to key in your username, password..
+
+# but normally we can upload to testpypi first
+# twine upload -r testpypi dist/*
