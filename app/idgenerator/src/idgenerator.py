@@ -2,6 +2,15 @@ import random
 import string
 import secrets
 import uuid
+# if the below line does not have the dot, it will throw error
+# Traceback (most recent call last):
+#   File "/Users/yijun/qrojects/python_package_example/run.py", line 1, in <module>
+#     from idgenerator import generate_credit_card_number, generate_guid, generate_object_id, generate_password
+#   File "/Users/yijun/qrojects/python_package_example/venv/lib/python3.10/site-packages/idgenerator/__init__.py", line 1, in <module>
+#     from .src.idgenerator import (
+#   File "/Users/yijun/qrojects/python_package_example/venv/lib/python3.10/site-packages/idgenerator/src/idgenerator.py", line 5, in <module>
+#     from utils import luhn_checksum
+# ModuleNotFoundError: No module named 'utils'
 from .utils import luhn_checksum
 import bson
 
