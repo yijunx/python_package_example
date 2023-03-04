@@ -6,7 +6,7 @@ with open("app/Readme.md", "r") as fh:
 
 setup(
     name="idgenerator",
-    version="0.0.1",
+    version="0.0.2",
     description="A package to generate random IDs",
     package_dir={"": "app"},
     packages=find_packages(where="app"),
