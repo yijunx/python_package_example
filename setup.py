@@ -17,6 +17,10 @@ setup(
     author_email="j@j.com",
     license="MIT",
     classifiers=[
+        # about license, programming language, etc and operating system
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Operating System :: OS Independent",
     ],
     install_requires=["bson >= 0.5.10"],
     extras_require={"dev": ["pytest>=7.0", "twine>=4.0.2"]}, #twine is used for publish to pypi or somewhere else..
